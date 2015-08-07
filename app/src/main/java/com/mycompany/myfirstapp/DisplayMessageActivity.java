@@ -1,9 +1,8 @@
 package com.mycompany.myfirstapp;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.TextView;
 
@@ -20,6 +19,8 @@ public class DisplayMessageActivity extends AppCompatActivity {
         textView.setTextSize(40);
         textView.setText(message);
         setContentView(textView);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override

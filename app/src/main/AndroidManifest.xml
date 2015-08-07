@@ -20,7 +20,7 @@
         <activity
             android:name=".DisplayMessageActivity"
             android:label="@string/title_activity_display_message"
-            android:parentActivityName=".MyActivity" >
+            android:parentActivityName="com.mycompany.myfirstapp.MyActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.mycompany.myfirstapp.MyActivity" />
